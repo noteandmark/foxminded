@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SQL SCHOOL</title>
+</head>
+<body>
+	<!-- header -->
+	<div>
+		<h1>Welcome to program SQL SCHOOL</h1>
+	</div>
+	<div>
+		<!-- content -->
+		<form method="POST" action="ServletMenu">
+			<p>1 -> Find all groups with less or equals student count</p>
+			<p>
+				<em>Input on which student count it will find groups</em>
+			</p>
+			<input type="text" name="studentCount">
+			<p>2 -> Find all students related to course with given name</p>
+			<p>
+				<em>Input course name. Result -> find all students</em>
+			</p>
+			<input type="text" name="courseName">
+			<p>3 -> Add new student</p>
+			<p>
+				<em>Input first name of student</em>
+			</p>
+			<input type="text" name="firstName">
+			<p>
+				<em>Input last name of student</em>
+			</p>
+			<input type="text" name="lastName">
+			<p>4 -> Delete student by STUDENT_ID</p>
+			<p>
+				<em>Input student id</em>
+			</p>
+			<input type="text" name="studentId">
+			<p>5 -> Add a student to the course (from a list)</p>
+			<p>
+				<em>Input student id</em>
+			</p>
+			<input type="text" name="studentIdAdd">
+			<p>
+				<em>Input course id</em>
+			</p>
+			<input type="text" name="courseId">
+			<p>6 -> Remove the student from one of his or her courses</p>
+			<p>
+				<em>Input student id</em>
+			</p>
+			<input type="text" name="studentIdDelete">
+			<p>
+				<em>Input course id to remove student from it</em>
+			</p>
+			<input type="text" name="courseIdDelete">
+			<p>
+				<b> Input your choice: <input type="text" name="choice">
+				</b>
+			</p>
+			<input type="submit" name="choise" value="SEND">
+		</form>
+	</div>
+</body>
+</html>
