@@ -1,2 +1,2 @@
 # foxminded
-projects in foxminded company
+projects implemented during the training in the company foxminded
