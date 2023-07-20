@@ -14,7 +14,10 @@ tmp/
 *.bak
 *.swp
 *~.nib
+*.iml
 local.properties
 .loadpath
 .factorypath
+.idea/
 /target/
+resources/config.properties
